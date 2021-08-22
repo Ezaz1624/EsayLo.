@@ -1,0 +1,261 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width:1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+      }
+    }
+
+    
+@media (min-width: 1200px) and (max-width:1399px) {
+  
+    /* CSS */
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+    .s-title p{
+        margin: 0 330px;
+        margin-bottom: 15px;
+        margin-top: 22px;
+    }
+    .s-box h5 a{
+        margin-right: 65px;
+    }
+    .s-box p{
+        margin-right: 60px;
+    }
+    .r-box{
+        bottom: 0px;
+        right: -115px ;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* CSS */
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+    
+    .b-header h1 {
+        font-size: 48px;
+    }
+    .s-title p {
+        margin: 0 220px;
+        margin-bottom: 15px;
+        margin-top: 22px;
+    }
+    
+    .s-box h5 a{
+    margin-right: 5px;
+    }
+    .s-box p{
+        margin-right: 0px;
+    }
+    .r-box{
+        bottom: 0px;
+        right: 12px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    /* CSS */
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+    .b-header h1 {
+        font-size: 48px;
+    }
+    .b-header p{
+        margin-right: 0px;
+    }
+    .form-title h2{
+        font-size: 24px;
+    }
+    .form-body p{
+        font-size: 15px;
+    }
+    .s-title p {
+        margin: 0 120px;
+        margin-bottom: 15px;
+        margin-top: 22px;
+    }
+    
+    .s-box h5 a{
+    margin-right: 5px;
+    }
+    .s-box p{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .reviwes {
+        padding-top: 0px;
+    }
+    .r-box{
+        bottom: -50px;
+        right: -120px;
+    }
+    .r-items{
+        margin-top: 80px;
+    }
+    .r-img{
+        margin-top: 60px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    
+    /* CSS */
+    .container{
+        padding-left: var(--bs-gutter-x,1.75rem);
+        padding-right: var(--bs-gutter-x,1.75rem);
+    }
+    .b-header h1 {
+        font-size: 48px;
+    }
+    .b-header p{
+        margin-right: 0px;
+    }
+    .form-title h2{
+        font-size: 24px;
+    }
+    .form-body p{
+        font-size: 15px;
+    }
+    .s-title p {
+        margin: 0 120px;
+        margin-bottom: 15px;
+        margin-top: 22px;
+    }
+    
+    .s-box h5 a{
+    margin-right: 5px;
+    }
+    .s-box p{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .r-box{
+        bottom: -50px;
+        right: -120px;
+    }
+    .r-items{
+        margin-top: 80px;
+    }
+    .r-img{
+        margin-top: 60px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+  }
+    
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+    /* CSS */
+    .banner{
+        height: 1020px;
+    }
+    .b-container{
+        margin-top: 40px;
+    }
+    .b-header h1 {
+        font-size: 45px;
+    }
+    .b-header p{
+        margin-right: 0px;
+        font-size: 23px;
+    }
+    .form-wrap{
+        margin-top: 50px;
+    }
+    .form-title h2{
+        font-size: 24px;
+    }
+    .form-body p{
+        font-size: 15px;
+    }
+    .s-title h1{
+        font-size: 32px;
+    }
+    .s-title p {
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 22px;
+    }
+    
+    .s-box h5 a{
+    margin-right: 5px;
+    font-size: 20px;
+    }
+    .s-box p{
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .reviwes {
+        padding-top: 0px;
+    }
+    .r-box{
+        bottom: -50px;
+        right: -120px;
+    }
+    .r-items{
+        margin-top: 80px;
+    }
+    .r-items h2{
+        font-size: 32px;
+    }
+    .r-img{
+        margin-top: 60px;
+    }
+    .slider-text p{
+        font-size: 19px;
+    }
+    .footer {
+        padding-top: 60px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
