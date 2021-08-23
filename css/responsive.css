@@ -82,6 +82,9 @@
     .container, .container-md, .container-sm {
         max-width: 720px;
     }
+   .banner{
+       height: 760px;
+   }
     .b-header h1 {
         font-size: 48px;
     }
@@ -137,6 +140,7 @@
         padding-left: var(--bs-gutter-x,1.75rem);
         padding-right: var(--bs-gutter-x,1.75rem);
     }
+    
     .b-header h1 {
         font-size: 48px;
     }
@@ -190,7 +194,7 @@
         height: 1020px;
     }
     .b-container{
-        margin-top: 40px;
+        margin-top: 120px;
     }
     .b-header h1 {
         font-size: 45px;
@@ -254,15 +258,15 @@
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 575px) {
+  @media (min-width: 349px) and (max-width: 575px) {
     
     /* CSS */
     .banner{
-        height: 1140px;
+        height: 1090px;
         padding-left: 15px;
     }
     .b-container{
-        margin-top: 40px;
+        margin-top: 100px;
     }
     .b-header h1 {
         font-size: 41px;
@@ -279,6 +283,112 @@
     }
     .form-body p{
         font-size: 15px;
+    }
+    .s-title h1{
+        font-size: 24px;
+    }
+    .s-title p {
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .s-box{
+        padding-left: 15px;
+    }
+    .s-box h5 a{
+    margin-right: 5px;
+    font-size: 24px;
+    }
+    .s-box p{
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .p-head{
+        padding-left: 15px;
+    }
+    .reviwes {
+        padding-top: 0px;
+    }
+    .r-box{
+        bottom: -32px;
+        right: 12px;
+        padding: 21px 19px;
+    }
+    .r-items{
+        margin-top: 80px;
+        padding-left: 15px;
+    }
+    .r-items h2{
+        font-size: 32px;
+    }
+    .r-img{
+        margin-top: 60px;
+        padding-left: 15px;
+    }
+    .s-title{
+        padding-left: 15px;
+    }
+    .c-box{
+        padding-left: 15px;
+    }
+    .slider-text p{
+        font-size: 19px;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-left: 15px;
+    }
+   .owl-dots,.abb-img,.line{
+       display: none;
+   }
+   .news{
+       padding-bottom: 32px;
+   }
+   .profile{
+       padding-left: 20px;
+   }
+   .news .s-img img{
+       width: 100%;
+   }
+   
+  }
+ 
+  @media (min-width: 250px) and (max-width: 348px) {
+    
+    /* CSS */
+    .banner{
+        height: 1140px;
+        padding-left: 15px;
+    }
+    .b-container{
+        margin-top: 100px;
+    }
+    .b-header h1 {
+        font-size: 38px;
+    }
+    .b-header p{
+        margin-right: 0px;
+        font-size: 23px;
+    }
+    .form-wrap{
+        margin-top: 50px;
+    }
+    .form-title h2{
+        font-size: 24px;
+    }
+    .form-body p{
+        font-size: 15px;
+    }
+    .form-btns,.para {
+        font-size: 14px;
+    }
+    .p-head h4 {
+        font-size: 20px;
+    }
+    .p-head{
+        padding-left: 15px;
     }
     .s-title h1{
         font-size: 24px;
@@ -347,3 +457,4 @@
    }
    
   }
+ 
