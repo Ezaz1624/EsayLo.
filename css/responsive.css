@@ -254,8 +254,96 @@
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 575px) {
     
     /* CSS */
-    
+    .banner{
+        height: 1140px;
+        padding-left: 15px;
+    }
+    .b-container{
+        margin-top: 40px;
+    }
+    .b-header h1 {
+        font-size: 41px;
+    }
+    .b-header p{
+        margin-right: 0px;
+        font-size: 23px;
+    }
+    .form-wrap{
+        margin-top: 50px;
+    }
+    .form-title h2{
+        font-size: 24px;
+    }
+    .form-body p{
+        font-size: 15px;
+    }
+    .s-title h1{
+        font-size: 24px;
+    }
+    .s-title p {
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .s-box{
+        padding-left: 15px;
+    }
+    .s-box h5 a{
+    margin-right: 5px;
+    font-size: 24px;
+    }
+    .s-box p{
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .reviwes {
+        padding-top: 0px;
+    }
+    .r-box{
+        bottom: -32px;
+        right: 12px;
+        padding: 21px 19px;
+    }
+    .r-items{
+        margin-top: 80px;
+        padding-left: 15px;
+    }
+    .r-items h2{
+        font-size: 32px;
+    }
+    .r-img{
+        margin-top: 60px;
+        padding-left: 15px;
+    }
+    .s-title{
+        padding-left: 15px;
+    }
+    .c-box{
+        padding-left: 15px;
+    }
+    .slider-text p{
+        font-size: 19px;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-left: 15px;
+    }
+   .owl-dots,.abb-img,.line{
+       display: none;
+   }
+   .news{
+       padding-bottom: 32px;
+   }
+   .profile{
+       padding-left: 20px;
+   }
+   .news .s-img img{
+       width: 100%;
+   }
+   
   }
