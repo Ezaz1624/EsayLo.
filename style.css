@@ -34,9 +34,13 @@ li{
     left: 0;
     z-index: 9;
 }
+.navbar{
+    width: 100%;
+}
 .navbar .show ul{
     background: #0F4332 !important; 
-    padding-bottom: 24px;   
+    padding-bottom: 24px;
+    width: 100%;   
 }
 .navbar .collapsing{
     background: #0F4332 !important;    
@@ -441,6 +445,9 @@ option{
     margin-right: 30px;
     margin-bottom: 25px;
     font-weight: 500;
+}
+.p-head{
+    margin-left: 32px;
 }
 .p-head h4{
     font-size: 24px;
